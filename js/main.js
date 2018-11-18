@@ -189,13 +189,3 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 
 }
-
-//Verify serviceWorker exists in browser, register serviceWorker
-
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-  .register('/js/sw.js')
-  .catch(function(error) {
-    console.log(error);
-  });
-}

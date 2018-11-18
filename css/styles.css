@@ -279,7 +279,7 @@ nav h1 a {
   color: #666;
 }
 
-/* ====================== Restaurant Hours Responsive ====================== */
+/* ====================== Restaurant Responsive (Mobile View) ====================== */
 @media(max-width: 400px) {
 	#restaurant-hours td {
 		display: table-row;
@@ -296,5 +296,11 @@ nav h1 a {
 	}
 	#footer {
 		padding: 3% 0%;
+	}
+	#restaurant-cuisine {
+	  letter-spacing: 5px;
+	}
+	#restaurant-name {
+	  font-size: 16pt;
 	}
 }

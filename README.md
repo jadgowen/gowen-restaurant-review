@@ -1,32 +1,25 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Joe's Restaurant Reviews
 
-## Project Overview: Stage 1
+## Table of Contents
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+* [Instructions](#instructions)
+* [Comments](#comments)
+* [Dependencies](#dependencies)
 
-### Specification
+## Instructions
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+The goal of the project is to convert a non-responsive review site into a responsive site with serviceWorker functionality and ARIA accessibility standards.
 
-### What do I do from here?
+Access to the project in its entirety can be found [here](https://github.com/jadgowen/gowen-restaurant-review).
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+After cloning the project, serve the project locally to inspect functionality. I used [Python](https://www.python.org/) for testing purposes.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+## Comments
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+This Restaurant Review project leveraged existing css, html, and js resources associated with the project. It was also inspired by all of the great contributors at sites like StackOverflow, MDN Developer, w3 Schools, and most impressive, the great students at Udacity!
 
-## Leaflet.js and Mapbox:
+A special thank you to the Udacity team for providing peer-submitted resources, and an **extra** thank you to [Matthew Cranford](https://matthewcranford.com/) for his incredibly helpful tutorials and walkthroughs.
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+## Dependencies
 
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+The project references scripts in its css folder and js folder, images from its images folder, and uses [Mapbox](https://www.mapbox.com/) and [leafletjs](https://leafletjs.com/) for its map functionality.
