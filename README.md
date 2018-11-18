@@ -14,6 +14,8 @@ Access to the project in its entirety can be found [here](https://github.com/jad
 
 After cloning the project, serve the project locally to inspect functionality. I used [Python](https://www.python.org/) for testing purposes.
 
+The project will cache itself and operate offline. This applies to individual restaurant pages, given that they were visited and made available to the cache.
+
 ## Comments
 
 This Restaurant Review project leveraged existing css, html, and js resources associated with the project. It was also inspired by all of the great contributors at sites like StackOverflow, MDN Developer, w3 Schools, and most impressive, the great students at Udacity!
